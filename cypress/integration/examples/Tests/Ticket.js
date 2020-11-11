@@ -40,7 +40,7 @@ describe('Dashboard Test Suit', function ()
     it('To (assignee) field is mandatory ',function(){
 
     ticketpage.NewTicketButton().click()
-    ticketpage.NewTicketTitle().type("Hello14")
+    ticketpage.NewTicketTitle().type("Hello1422")
     ticketpage.NewTicketDescription().type("Wuhuuecu")
     ticketpage.CategoryDropDown().click().select('react-select-8--option-2')
     //ticketpage.Category1().click()

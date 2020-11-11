@@ -2,6 +2,8 @@ class SignInDetail {
 
     //Elements of Login
 
+    //npx cypress run --record --key 68e84cf2-df6b-4fb9-94b2-3de27b826d6e
+
     visit() {
         cy.visit('https://hr-staging.devsinc.com/login');
     }
