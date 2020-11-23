@@ -15,4 +15,4 @@ jobs:
           working-directory: frontend
         env:
           # pass the Dashboard record key as an environment variable
-          CYPRESS_RECORD_KEY: e63a7946-58c1-48bf-9a6b-c0c832a5g137
+          CYPRESS_RECORD_KEY: 68e84cf2-df6b-4fb9-94b2-3de27b826d6e
