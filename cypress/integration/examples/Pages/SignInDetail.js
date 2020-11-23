@@ -26,7 +26,7 @@ class SignInDetail {
     SignInButton() {
 
         return cy.get(".landing-page-button");
-
+// THis is for the testing purpose 
     }
 
     ForgotPassword (){
