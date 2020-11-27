@@ -26,7 +26,7 @@ class SignInDetail {
     SignInButton() {
 
         return cy.get(".landing-page-button");
-// THis is for the testing purpose 
+// THis is for the testing purpose  i am commtting because wanna test jenkins 
     }
 
     ForgotPassword (){
