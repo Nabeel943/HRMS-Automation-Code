@@ -40,11 +40,7 @@ class SignInDetail {
      return cy.get(".landing-page-error-div")
     }
 
-    BlankEmail_password_Error()
-    {
-
-        return cy.get(":nth-child(3) > div")
-    }
+   
 
 }
 export  default  SignInDetail
