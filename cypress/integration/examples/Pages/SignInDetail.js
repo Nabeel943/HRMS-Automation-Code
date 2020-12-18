@@ -40,7 +40,8 @@ class SignInDetail {
      return cy.get(".landing-page-error-div")
     }
 
-   
+   //This is for the testing purpose 
+  // helooer ieer erherie i erver
 
 }
 export  default  SignInDetail
