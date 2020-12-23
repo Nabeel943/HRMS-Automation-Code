@@ -69,7 +69,6 @@ describe('Sign in API Testing', function () {
         
         {
             console.log(response.body)
-       
         
         })
        

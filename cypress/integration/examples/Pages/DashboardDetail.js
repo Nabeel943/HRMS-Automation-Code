@@ -1,8 +1,5 @@
 class DashboardDetail {
 
-
-
-
     ProfileIcon(){
         return cy.get(".sb-avatar > .user-avatar")
     }

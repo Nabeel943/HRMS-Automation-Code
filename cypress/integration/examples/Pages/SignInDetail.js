@@ -26,8 +26,8 @@ class SignInDetail {
     SignInButton() {
 
         return cy.get(".landing-page-button");
-// Checking the contineous integration and automatically commit of 
-    }
+
+      }
 
     ForgotPassword (){
 
@@ -39,9 +39,6 @@ class SignInDetail {
 
      return cy.get(".landing-page-error-div")
     }
-
-   //This is for the testing purpose 
-  // helooer ieer erherie i erver
 
 }
 export  default  SignInDetail

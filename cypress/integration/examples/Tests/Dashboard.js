@@ -4,7 +4,7 @@ describe('Dashboard Test Suit', function ()
  {
     const signinpage= new SignInDetail();
     const dashboardpage= new DashboardDetail();
-      beforeEach(()=>{
+      this.beforeAll(()=>{
 
         cy.visit("https://hr-staging.devsinc.com/login")
           signinpage.fillEmail().type("jawad.firdous@devsinc.com");
