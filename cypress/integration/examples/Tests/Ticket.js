@@ -95,4 +95,5 @@ describe('Dashboard Test Suit', function ()
 
     // })
 
-    })})
+    })
+  })

@@ -19,8 +19,7 @@ TicketHeaderSubtitle(){
 }
 
 NewTicketButton(){
-    return cy.xpath('//body/div[@id="root"]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]')
-}
+    return cy.get('.create-new-ticket > :nth-child(2)')}
 
 NewTicketPlusButton(){
     return cy.get('fa fa-plus icon')
@@ -107,7 +106,7 @@ TicketListcreatorXapth(x){
     }
 
     NewTicketDescription(){
- return cy.xpath('//body/div[18]/div[2]/div[2]/form[1]/div[1]/div[4]/div[1]/div[1]/div[1]/textarea[1]')
+ return cy.get('.jss234 > .jss229')
     }
     NewTicketCategory(){
         return cy.xpath('//body/div[18]/div[2]/div[2]/form[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]')
@@ -117,7 +116,7 @@ TicketListcreatorXapth(x){
     return cy.xpath('//div[contains(text(),Priority")]')
     }
     NewTicketCategoryDornwon(){
-        return cy.xpath('//body/div[18]/div[2]/div[2]/form[1]/div[1]/div[5]/div[1]/div[1]/div[1]/span[1]')
+        return cy.xpath('.categories-div > .Select > .Select-control > .Select-arrow-zone')
     }
 
     NewTicketPriorityDropDown(){
@@ -139,7 +138,6 @@ TicketListcreatorXapth(x){
     NewTicketPopUpCrossbutton(){
         return cy.xpath('//body/div[18]/div[2]/div[1]/h2[1]/*[1]')
     }
-
 
 
     CategoryFirstElement(){
